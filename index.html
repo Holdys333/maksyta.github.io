@@ -13,8 +13,8 @@
             font-family: 'Inter', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #181818;
-            color: #fff;
+            background-color: #f4f4f4; /* Светлый фон */
+            color: #333; /* Тёмно-серый текст */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,10 +25,10 @@
         .tabs {
             display: flex;
             justify-content: center;
-            background: #222;
+            background: #eeeeee; /* Светлый фон для вкладок */
             border-radius: 50px;
             margin-top: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         }
         .tab {
             padding: 12px 20px;
@@ -39,19 +39,19 @@
             transition: background 0.3s, transform 0.2s;
         }
         .tab:hover {
-            background: #00d4ff;
+            background: #76c7c5; /* Пастельный голубой */
             transform: scale(1.1);
         }
         .tab.active {
-            background: #00a3cc;
-            color: black;
+            background: #5bb1a5; /* Более насыщенный голубой */
+            color: #fff;
         }
         .content {
             display: none;
             padding: 20px;
-            background: #2d2d2d;
+            background: #ffffff; /* Белый фон для контента */
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             margin-top: 30px;
             width: 100%;
             max-width: 450px;
@@ -61,41 +61,41 @@
         }
         h1 {
             font-size: 2em;
-            color: #00d4ff;
+            color: #76c7c5; /* Пастельный голубой */
             margin-bottom: 20px;
         }
         input, button {
             width: 100%;
             padding: 12px;
             margin: 12px 0;
-            border: 2px solid #444;
+            border: 2px solid #ddd; /* Светлая граница */
             border-radius: 8px;
             font-size: 1em;
-            background: #333;
-            color: white;
+            background: #f9f9f9; /* Светлый фон для ввода */
+            color: #333;
             transition: all 0.3s;
         }
         input:focus, button:focus {
             outline: none;
-            border-color: #00d4ff;
-            background-color: #222;
+            border-color: #76c7c5; /* Пастельный голубой для фокуса */
+            background-color: #f1f1f1;
         }
         button {
-            background: #00d4ff;
-            color: #111;
+            background: #76c7c5;
+            color: white;
             font-weight: bold;
             cursor: pointer;
             transition: background 0.3s, transform 0.2s;
         }
         button:hover {
-            background: #00a3cc;
+            background: #5bb1a5; /* Более насыщенный голубой при наведении */
             transform: scale(1.05);
         }
         .weather-card {
-            background: #333;
+            background: #ffffff;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .seven-segment {
             font-family: 'SevenSegment', sans-serif;
